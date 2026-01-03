@@ -10,7 +10,6 @@ export default function ContactForm() {
     phone: "",
     deviceType: "Laptop",
   });
-
   const navigate = useNavigate();  // 2. Initialize navigate
 
   const handleChange = (e) => {
@@ -87,7 +86,8 @@ export default function ContactForm() {
 
       <button
         onClick={handleNext}
-        className="px-4 py-2 bg-blue-600 text-white rounded"
+        className="px-4 py-2 bg-blue-600 text-white rounded"// PR check: showing registration form files to team leader
+
       >
         Next
       </button>
